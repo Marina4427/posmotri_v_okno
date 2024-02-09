@@ -71,8 +71,8 @@ ol {
 }
 
 .content__video-card {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .result__video-container {
@@ -107,7 +107,6 @@ ol {
   line-height: 1.2em;
   text-align: left;
   margin-block-end: 5px;
-
 }
 
 .title {
@@ -141,7 +140,6 @@ ol {
   padding-block-start: 4px;
   padding-block-end: 4px;
   word-break: break-all;
-
 }
 
 .content__video-card-description {
@@ -250,7 +248,7 @@ button:active {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
- content: "";
+  content: "";
   width: 16px;
   height: 16px;
   background-color: #fff;
@@ -293,9 +291,9 @@ button:focus-visible {
   outline-offset: 1px;
 }
 
-/*a:focus:focus, input:focus  {
+a:focus:focus, input:focus  {
   outline:none;
-}*/
+}
 
 .content__list-item:has(:focus-visible) {
   outline: 1px solid #fff;
