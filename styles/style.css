@@ -79,6 +79,7 @@ ol {
   width: 711px;
   height: 386px;
   margin-block-end: 16px;
+  position: relative;
 }
 
 .result__video {
