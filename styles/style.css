@@ -87,6 +87,7 @@ ol {
   height: 100%;
   object-fit: cover;
   object-position: bottom;
+
 }
 
 .content__video-card-description-container {
@@ -95,6 +96,7 @@ ol {
 
 .content__list {
   overflow: hidden scroll;
+  position: relative;
 }
 
 .content__list::-webkit-scrollbar {
